@@ -1,0 +1,20 @@
+{
+  "name": "wemo-switch-rest-api",
+  "version": "1.0.0",
+  "description": "Crudely written *REST* API to set/get Belkin Wemo smart outlet state.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["wemo", "smart", "iot", "belkin", "node", "rest", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "wemo-client": "^0.15.0"
+  }
+}
