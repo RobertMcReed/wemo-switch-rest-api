@@ -1,5 +1,7 @@
 const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname) });
+const dir = path.resolve(__dirname);
+
+require('dotenv').config({ path: `${dir}/.env` });
 
 const server = require('./src/server');
 const WemoController = require('./src/wemo');
